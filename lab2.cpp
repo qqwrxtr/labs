@@ -14,7 +14,7 @@ void introducereGraf() {
     graf.assign(nr_varfuri + 1, vector<int>(nr_varfuri + 1, -INF));
     for (int i = 1; i <= nr_varfuri; i++) graf[i][i] = 0;
 
-    cout << "Muchii (start end cost):" << endl;
+    cout << "Muchii (start sfarsit cost):" << endl;
     for (int i = 0; i < nr_muchii; i++) {
         int x, y, cost;
         cin >> x >> y >> cost;
